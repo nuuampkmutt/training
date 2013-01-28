@@ -4,13 +4,13 @@ $(document).ready(function() {
             $("#slider").animate({
                 marginTop: "-141px"
                 }, 500 );
-            $("#topMenuImage").html('Log in (Open)');
+            $("#topMenuImage").html('Open it!!');
             $("#openCloseIdentifier").show();
         } else {
             $("#slider").animate({
                 marginTop: "0px"
                 }, 500 );
-            $("#topMenuImage").html('Log in (Close)');
+            $("#topMenuImage").html('Close it!!');
             $("#openCloseIdentifier").hide();
         }
     }); 

@@ -245,10 +245,6 @@ td {
   border: 1px solid #373737;
  }
 
-form {
-  background: #f2f2f2;
-  padding: 20px;
-}
 
 img {
   width: 100%;
@@ -413,4 +409,54 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+#sliderWrap {
+margin: 0 auto;
+width: 300px;
+position: absolute;
+right: 190px;
+z-index:99;
+top:0px;
+right:0px;
+}
+#slider {
+position: absolute;
+background-image:url(../images/slider.png);
+background-repeat:no-repeat;
+background-position: bottom;
+width: 300px;
+height: 159px;
+margin-top: -141px;
+}
+#slider img {
+border: 0;
+}
+#sliderContent {
+position: absolute;
+text-align:center;
+color:#333333;
+font-weight:bold;
+padding: 10px 20px;
+}
+#header {
+margin: 0 auto;
+width: 600px;
+background-color: #F0F0F0;
+height: 200px;
+padding: 10px;
+}
+#openCloseWrap {
+position:absolute;
+right:115px;
+bottom:5px;
+font-size:12px;
+font-weight:bold;
+}
+.topMenuAction{
+color: #fff;
+}
+/* Log in */
+.login-frm p{
+margin: 5px 0px;
 }
