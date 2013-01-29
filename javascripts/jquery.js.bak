@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$('#slider').nivoSlider();
 	slidingLoginBox();
 	dropMenu();
 });
@@ -22,10 +23,10 @@ function slidingLoginBox(){
 function dropMenu(){
     $("#nav li").hover(
         function () {
-            $(this).find("div.sub-menu").fadeIn("fast");
+            $(this).find("div.sub-nav").fadeIn("fast");
         },
         function () {
-            $(this).find("div.sub-menu").fadeOut("fast");
+            $(this).find("div.sub-nav").fadeOut("fast");
         }
     );
 }
