@@ -59,6 +59,7 @@
 		</ul>
 	</div>
   </li>
+  <li><a href="../training/textbook.html">Testbook Style</a></li>
   <li> 
   	<a href="#">Downloads</a>
     <div style="display:none;" class="sub-nav">
@@ -78,7 +79,7 @@
     <div id="main_content_wrap" class="outer">
 		<section id="main_content" class="inner">
         <div class="slider-wrapper theme-default">
-            <div id="slider" class="nivoSlider">
+            <div id="nivo-slider" class="nivoSlider">
                 <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="/images/up.jpg" alt="" title="This is an example of a caption" /></a>
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
